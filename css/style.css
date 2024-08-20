@@ -1,0 +1,83 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: uppercase;
+}
+header{
+    padding: 10px;
+    margin-bottom: 10px;
+    background: gainsboro;
+
+}
+header:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+    background: lightcoral;
+    color: white;
+}
+footer{
+    padding: 10px;
+    margin-top: 10px;
+    background: gainsboro;
+}
+footer:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+    background: lightcoral;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.letf{
+    flex: 1;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    gap: 10px;
+    width: 10%;
+    height: 40vh;
+}
+.top{
+    background: gainsboro;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+    background: rgb(91, 73, 196);
+    color: white;
+}
+
+.right{
+    flex: 1;
+    background: gainsboro;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+    background: rgb(173, 240, 128);
+    color: white;
+}
+main{
+    flex: 2;
+    background: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+    background: rgb(221, 128, 240);
+    color: white;
+}
